@@ -1,0 +1,33 @@
+.homeScreen {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeScreen::before {
+  content: "";
+  background-image: url('photos/home_photo.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.81;
+}
+
+h1 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: pulse;
+  animation-duration: 2s;
+}
